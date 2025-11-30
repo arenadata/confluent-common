@@ -22,7 +22,7 @@
 
     <parent>
         <artifactId>common-parent</artifactId>
-        <groupId>io.confluent</groupId>
+        <groupId>io.arenadata.confluent</groupId>
         <version>7.9.1</version>
     </parent>
 
@@ -32,7 +32,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.confluent</groupId>
+            <groupId>io.arenadata.confluent</groupId>
             <artifactId>common-utils</artifactId>
             <version>${io.confluent.common.version}</version>
         </dependency>

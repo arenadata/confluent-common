@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.confluent</groupId>
+        <groupId>io.arenadata.confluent</groupId>
         <artifactId>common-parent</artifactId>
         <version>7.9.1</version>
     </parent>
@@ -33,22 +33,22 @@
     <!-- Dependencies are required only to ensure this module is built last. -->
     <dependencies>
         <dependency>
-            <groupId>io.confluent</groupId>
+            <groupId>io.arenadata.confluent</groupId>
             <artifactId>build-tools</artifactId>
             <version>${io.confluent.common.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.confluent</groupId>
+            <groupId>io.arenadata.confluent</groupId>
             <artifactId>common-utils</artifactId>
             <version>${io.confluent.common.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.confluent</groupId>
+            <groupId>io.arenadata.confluent</groupId>
             <artifactId>common-config</artifactId>
             <version>${io.confluent.common.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.confluent</groupId>
+            <groupId>io.arenadata.confluent</groupId>
             <artifactId>common-metrics</artifactId>
             <version>${io.confluent.common.version}</version>
         </dependency>

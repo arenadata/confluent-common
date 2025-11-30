@@ -23,7 +23,7 @@
 
     <parent>
         <artifactId>common-parent</artifactId>
-        <groupId>io.confluent</groupId>
+        <groupId>io.arenadata.confluent</groupId>
         <version>7.9.1</version>
     </parent>
 
@@ -43,12 +43,12 @@
             <artifactId>logredactor</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.confluent</groupId>
+            <groupId>io.arenadata.confluent</groupId>
             <artifactId>common-logging</artifactId>
             <version>${io.confluent.common.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.kafka</groupId>
+            <groupId>io.arenadata.kafka</groupId>
             <artifactId>connect-api</artifactId>
             <version>${kafka.version}</version>
         </dependency>

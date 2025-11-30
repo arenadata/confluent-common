@@ -23,7 +23,7 @@
 
     <parent>
         <artifactId>common-parent</artifactId>
-        <groupId>io.confluent</groupId>
+        <groupId>io.arenadata.confluent</groupId>
         <version>7.9.1</version>
     </parent>
 
@@ -39,12 +39,12 @@
             <artifactId>slf4j-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.kafka</groupId>
+            <groupId>io.arenadata.kafka</groupId>
             <artifactId>connect-api</artifactId>
             <version>${kafka.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.kafka</groupId>
+            <groupId>io.arenadata.kafka</groupId>
             <artifactId>connect-json</artifactId>
             <version>${kafka.version}</version>
         </dependency>
