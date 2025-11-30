@@ -147,7 +147,7 @@
         <docker.pull-image>false</docker.pull-image>
         <docker.imagePullPolicy>IfNotPresent</docker.imagePullPolicy>
         <dependency.check.skip>true</dependency.check.skip>
-        <io.confluent.common.version>7.9.1</io.confluent.common.version>
+        <io.confluent.common.version>7.9.1.1-3.9.1-2</io.confluent.common.version>
         <!-- This is a version of the pom file that we install and deploy because
             the kafka and ce-kafka version ranges are resolved.
         -->
