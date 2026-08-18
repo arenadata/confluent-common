@@ -217,10 +217,22 @@
         <module>disk-usage-agent</module>
     </modules>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/arenadata/confluent-common</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>confluent</id>
             <url>https://packages.confluent.io/maven/</url>
+        </repository>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/arenadata/*</url>
         </repository>
     </repositories>
 
@@ -228,6 +240,10 @@
         <pluginRepository>
             <id>confluent</id>
             <url>https://packages.confluent.io/maven/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/arenadata/*</url>
         </pluginRepository>
     </pluginRepositories>
 
